@@ -29,6 +29,7 @@ requirements:
     - numpy
     - python
     - scipy
+    - tqdm
     # slider
     - ipywidgets
     # openPMD_notebook command
