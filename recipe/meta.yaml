@@ -38,7 +38,7 @@ requirements:
 
 test:
   imports:
-    - opmd_viewer
+    - openpmd_viewer
 
 about:
   home: https://www.openPMD.org
