@@ -34,7 +34,7 @@ requirements:
     # openPMD_notebook command
     - jupyter
     # examples
-    - wget  # [not win]
+    # - wget  # noarch does not allow selectors such as no win
 
 test:
   imports:
