@@ -17,18 +17,15 @@ build:
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
-    - {{ compiler('c') }}
   host:
-    - cython
-    - numpy
     - pip
     - python
     - setuptools
   run:
     - h5py
     - matplotlib-base
-    - {{ pin_compatible('numpy') }}
+    - numba
+    - numpy
     - python
     - scipy
     # slider
