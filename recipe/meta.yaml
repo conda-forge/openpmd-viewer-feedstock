@@ -1,6 +1,6 @@
 {% set name = "openpmd-viewer" %}
 {% set version = "1.0.0" %}
-{% set build = 0 %}
+{% set build = 1 %}
 {% set sha256 = "9b73c15a3a7058a253ca667b90fdcb955144731f553d9222aebd5b82a898caae" %}
 
 package:
@@ -35,7 +35,7 @@ requirements:
     # openPMD_notebook command
     - jupyter
     # examples
-    # - wget  # noarch does not allow selectors such as no win
+    - python-wget
 
 test:
   imports:
