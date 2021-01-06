@@ -5,9 +5,11 @@ Home: https://www.openPMD.org
 
 Package license: BSD-3-Clause-LBNL
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openpmd-viewer-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python visualization tools for openPMD files
+
+Development: https://github.com/openPMD/openPMD-viewer
 
 This package contains a set of tools to load and visualize the
 contents of a set of openPMD files (typically, a timeseries).
