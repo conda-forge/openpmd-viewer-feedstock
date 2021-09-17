@@ -1,7 +1,7 @@
 {% set name = "openpmd-viewer" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 {% set build = 0 %}
-{% set sha256 = "6b602f88e61d66c4a884f4e69b40807afa6582921b3c8377b4faac4d03362f04" %}
+{% set sha256 = "a27f8ac522c4c76fd774095e156a8b280c9211128f50aa07f16ac70d8222384d" %}
 
 package:
   name: {{ name|lower }}
@@ -20,14 +20,14 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools
   run:
     - h5py
     - matplotlib-base
     - numba
     - numpy
-    - python
+    - python >=3.6
     - scipy
     - tqdm
     # slider
