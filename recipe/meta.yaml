@@ -1,6 +1,6 @@
 {% set name = "openpmd-viewer" %}
 {% set version = "1.2.0" %}
-{% set build = 0 %}
+{% set build = 1 %}
 {% set sha256 = "a27f8ac522c4c76fd774095e156a8b280c9211128f50aa07f16ac70d8222384d" %}
 
 package:
@@ -32,6 +32,7 @@ requirements:
     - tqdm
     # slider
     - ipywidgets
+    - ipympl
     # openPMD_notebook command
     - jupyter
     # examples
