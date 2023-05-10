@@ -25,7 +25,9 @@ requirements:
   run:
     - h5py
     - matplotlib-base
-    - numba
+    # Python 3.11 not yet in numba feedstock
+    # https://github.com/conda-forge/numba-feedstock
+    - numba  # [py<=310]
     - numpy
     - python >=3.6
     - scipy
