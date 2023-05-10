@@ -1,11 +1,11 @@
-About openpmd-viewer
-====================
+About openpmd-viewer-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openpmd-viewer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.openPMD.org
 
 Package license: BSD-3-Clause-LBNL
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openpmd-viewer-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python visualization tools for openPMD files
 
