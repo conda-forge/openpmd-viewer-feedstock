@@ -20,14 +20,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python
     - setuptools
   run:
     - h5py
     - matplotlib-base
     - numba
     - numpy
-    - python >=3.6
+    - python
     - scipy
     - tqdm
     # slider
