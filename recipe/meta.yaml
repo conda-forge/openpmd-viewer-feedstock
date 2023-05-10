@@ -27,7 +27,8 @@ requirements:
     - matplotlib-base
     # Python 3.11 not yet in numba feedstock
     # https://github.com/conda-forge/numba-feedstock
-    - numba  # [py<=310]
+    # but cannot use selectors for no-arch packages
+    #- numba
     - numpy
     - python >=3.6
     - scipy
