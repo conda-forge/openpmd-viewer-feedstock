@@ -1,7 +1,7 @@
 {% set name = "openpmd-viewer" %}
-{% set version = "1.9.0" %}
+{% set version = "1.10.0" %}
 {% set build = 0 %}
-{% set sha256 = "9296218f92152c7dcfedb97dd9914c9179881c8e93e06669339cb4aa01fdb683" %}
+{% set sha256 = "25fe0458c47ab2d212aea77c0d2435f3750a6ee65ade9cf6ee0c7e52d681f986" %}
 
 package:
   name: {{ name|lower }}
