@@ -1,6 +1,6 @@
 {% set name = "openpmd-viewer" %}
 {% set version = "1.10.0" %}
-{% set build = 0 %}
+{% set build = 1 %}
 {% set sha256 = "25fe0458c47ab2d212aea77c0d2435f3750a6ee65ade9cf6ee0c7e52d681f986" %}
 
 package:
@@ -20,7 +20,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
   run:
     # backends
@@ -33,7 +33,7 @@ requirements:
     # but cannot use selectors for no-arch packages
     #- numba
     - numpy
-    - python >=3.6
+    - python >={{ python_min }}
     - scipy
     - tqdm
     # slider
@@ -45,6 +45,8 @@ requirements:
     - python-wget
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - openpmd_viewer
 
